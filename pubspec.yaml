@@ -1,0 +1,120 @@
+name: foodie_customer
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+2
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  firebase_core: ^2.15.1
+  firebase_crashlytics: ^3.3.5
+  firebase_auth: ^4.7.3
+  cloud_firestore: ^4.8.5
+  firebase_storage: ^11.2.6
+  firebase_messaging: ^14.6.6
+  flutter_local_notifications: ^15.1.0+1
+  flutter_facebook_auth: ^5.0.11
+  geoflutterfire2: ^2.3.15
+  geolocator: ^9.0.1
+  geocoding: ^2.1.0
+
+  #payment getway
+  mercadopago_sdk: ^1.3.0
+  flutter_stripe: ^9.3.0
+  paytm_allinonesdk: ^1.2.2
+  flutterwave_standard: ^1.0.6
+  razorpay_flutter: ^1.3.5
+#  flutter_braintree: ^3.0.0
+
+  image_picker: ^1.0.2
+  url_launcher: ^6.1.12
+  progress_dialog_null_safe: ^1.0.7
+  intl: ^0.18.1
+  cached_network_image: ^3.2.3
+  uuid: ^3.0.7
+  video_thumbnail: ^0.5.3
+  path_provider: ^2.1.0
+  photo_view: ^0.14.0
+  video_player: ^2.7.0
+  http: ^0.13.6
+  smooth_page_indicator: ^1.1.0
+  intl_phone_number_input: ^0.7.3+1
+  pin_code_fields: ^8.0.1
+  easy_localization: ^3.0.2
+  mime: ^1.0.4
+  moor_flutter:
+  path: ^1.8.3
+  font_awesome_flutter: ^10.5.0
+  flutter_polyline_points: ^1.0.0
+  percent_indicator: ^4.2.3
+  lottie: ^2.6.0
+  flutter_native_image: ^0.0.6+1
+  video_compress: ^3.1.2
+  flutter_sound: ^9.2.13
+  the_apple_sign_in:
+  cupertino_icons: ^1.0.5
+  dotted_border: ^2.0.0+3
+  flutter_rating_bar: ^4.0.1
+  place_picker: ^0.10.0
+  google_maps_flutter: ^2.4.0
+  share: ^2.0.4
+  flutter_staggered_grid_view: ^0.7.0
+  clipboard: ^0.1.3
+  location: ^5.0.3
+  bluetooth_thermal_printer: ^0.0.6
+  esc_pos_utils: ^1.1.0
+  flutter_facebook_keyhash: ^0.0.4
+  flutter_qr_bar_scanner: ^3.0.2
+  flutter_widget_from_html: ^0.9.1
+  scroll_to_index: ^3.0.1
+  rect_getter: ^1.1.0
+  story_view: ^0.15.0
+  flutter_share: ^2.0.0
+  flutterflow_paginate_firestore: ^1.0.3+1
+  bottom_picker: ^2.0.4
+  mailer: ^6.0.1
+
+#  flutter_inappwebview:
+#    git:
+#      url: https://github.com/Estrelio/flutter_inappwebview.git
+#      ref: fix-xcode-17
+
+#dependency_overrides:
+#  webview_flutter: ^4.2.4
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/translations/
+    - assets/fonts/
+    - assets/flags/
+    - assets/json file/
+    - assets/
+
+  fonts:
+    - family: Poppinsb
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+    - family: Poppinsl
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+
+    - family: Poppinsm
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+
+    - family: Poppinsr
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: Poppinssb
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf

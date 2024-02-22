@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CHANGY</string>
+    <string name="facebook_app_id">2961170014017814</string>
+    <string name="fb_login_protocol_scheme">fb2961170014017814</string>
+    <string name="facebook_client_token">0c5e13dd9da026d809cb1633c2e47c2c</string>
+</resources>
